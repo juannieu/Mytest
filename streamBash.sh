@@ -1,0 +1,1 @@
+ffmpeg -re -i "VideoOriginal.mp4" -c:v copy -c:a aac -ar 44100 -ac 1 -f flv rtmp://a.rtmp.youtube.com/live2/tzpu-ymd0-y3tf-qbeh-6hfb
